@@ -1,0 +1,19 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: Beam
+Author: Jake Atkinson
+URL: https://poly.google.com/view/1Tvx2n72WuM
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Beam
+Author: Jake Atkinson
+URL: https://poly.google.com/view/fjcFhwI4KvD
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Glowing orb
+Author: Jake Atkinson
+URL: https://poly.google.com/view/5Kqb--cacAz
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
