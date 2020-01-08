@@ -18,6 +18,8 @@ public class Constants
       public const float RING = .5f;
       public const float STEPPER_MAGNITUDE_OFFSET = .6f;
       public const float REACH_MULTIPLIER = 1.15f;
+      public const float STEPPER_DEFAULT = 1.2f;
+      public const float REACHING_DEFAULT = 0.9f;
 
       public const string STEPPER_INSTRUCTIONS = "-- How to play --\nStep into the blue beam\n then back again";
       public const string REACHING_INSTRUCTIONS = "-- How to play --\nPut the yellow orb\nin the red ring";

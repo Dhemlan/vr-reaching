@@ -88,9 +88,10 @@ public class StepReachCalibrator : MonoBehaviour
         if (coroutine != null){
             StopCoroutine(coroutine);
         }
+
         speechBubble.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = Constants.STEPPER_INSTRUCTIONS;
-        locationSpawner.GetComponent<LocationSpawner>().setMagnitude(1.5f);
-        locationSpawner.GetComponent<LocationSpawner>().SetStepReachMagnitude(0.9f);
+        locationSpawner.GetComponent<LocationSpawner>().setMagnitude(Constants.REACHING_DEFAULT);
+        locationSpawner.GetComponent<LocationSpawner>().SetStepReachMagnitude(Constants.STEPPER_DEFAULT);
     }
 
     private float avgStepLength(List<float> steps){

@@ -75,8 +75,8 @@ public void setMagnitude(float newMag){
 }
 
 public void SetStepReachMagnitude(float stepMag){
-    this.stepReachMagnitude = magnitude; //this.magnitude + stepMag;
-    setMagnitude(stepMag);
+    this.stepReachMagnitude = magnitude + stepMag - Constants.STEPPER_MAGNITUDE_OFFSET;
+    setMagnitude(stepMag * 0.6f);
 }
 
 public void CalcMagnitude(Vector3 handPosition){
